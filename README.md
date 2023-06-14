@@ -1,5 +1,7 @@
 # PS2MapComponents
-New LWC version of map components to be used in demos
+THIS SOFTWARE IS COVERED BY [THIS DISCLAIMER](https://raw.githubusercontent.com/thedges/Disclaimer/master/disclaimer.txt).
+
+This repo provides new LWC based map components to be used in demos
 
 # Installation
 Install this repo to your target demo org.
