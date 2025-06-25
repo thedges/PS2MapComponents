@@ -8,6 +8,7 @@ This repo provides new LWC based map components to be used in demos
 2. For PS2RecordLocator component...
    * Assign the "PS2RecordLocator" perm set to the user(s) that will use this component.
    * Edit a page and find the "PS2 Record Locator" component in the custom LWC component list and drop on your page.
+   * Configure the parameters for the component for your environment.
 
 <a href="https://githubsfdeploy.herokuapp.com?owner=thedges&repo=PS2MapComponents&ref=main">
   <img alt="Deploy to Salesforce"
