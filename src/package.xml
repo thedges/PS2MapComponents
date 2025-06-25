@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>PS2MapUtils</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>ArcGISGeocode</members>
+        <members>ArcGISOnlineServer</members>
+        <name>CspTrustedSite</name>
+    </types>
+    <types>
+        <members>Case.Address__c</members>
+        <members>Case.City__c</members>
+        <members>Case.Location__c</members>
+        <members>Case.Postal__c</members>
+        <members>Case.State__c</members>
+        <members>Case.Street__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>ps2BaseMap</members>
+        <members>ps2RecordLocator</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>PS2RecordLocator</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Leaflet_1_9_4</members>
+        <members>PS2MapComponents</members>
+        <name>StaticResource</name>
+    </types>
+    <version>60.0</version>
+</Package>

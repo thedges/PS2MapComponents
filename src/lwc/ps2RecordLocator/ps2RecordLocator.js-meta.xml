@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>64.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>PS2 Record Locator</masterLabel>
+    <targets>
+        <target>lightning__RecordPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <property label="SObjectField for Latitude" name="latField" type="String" default="Location__Latitude__s" description="SObjectField for Latitude." />
+            <property label="SObjectField for Longitude" name="lngField" type="String" default="Location__Longitude__s" description="SObjectField for Longitude." />
+            <property label="SObjectField for Full Address" name="fullAddressField" type="String" default="Address__c" description="SObjectField for Full Address." />
+            <property label="SObjectField for Street" name="streetField" type="String" default="Street__c" description="SObjectField for Street." />
+            <property label="SObjectField for City" name="cityField" type="String" default="City__c" description="SObjectField for City." />
+            <property label="SObjectField for State" name="stateField" type="String" default="State__c" description="SObjectField for State." />
+            <property label="SObjectField for Postal/Zipcode" name="postalField" type="String" default="Postal__c" description="SObjectField for Postal/Zipcode." />
+            <property label="Map Center Latitude" name="mapCenterLat" type="String" default="30.267811" description="Map Center Latitude." />
+            <property label="Map Center Longitude" name="mapCenterLng" type="String" default="-97.744328" description="Map Center Longitude." />
+            <property label="Map Zoom Level" name="mapZoomLevel" type="String" default="14" description="Map Zoom Level." />
+            <property label="Map Height In Pixels" name="mapHeight" type="String" default="500" description="Map Height In Pixels." />
+            <property label="Re-center on current location" name="centerOnLocation" type="Boolean" default="true" description="Re-center on current GPS location (only if record location not found)." />
+            <property label="Address auto-complete" name="addressAutocomplete" type="Boolean" default="true" description="Show address auto-complete option at top." />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

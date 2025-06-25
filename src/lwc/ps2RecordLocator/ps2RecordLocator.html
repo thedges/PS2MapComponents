@@ -1,0 +1,16 @@
+<template>
+  <div class="psRecordLocator">
+    <c-ps2-base-map
+      height={mapHeight}
+      label=""
+      zoom-level={mapZoomLevel}
+      enable-reverse-geocode
+      enable-center-on-location={centerOnLocation}
+      enable-address-autocomplete={addressAutocomplete}
+      start-latitude={mapCenterLat}
+      start-longitude={mapCenterLng}
+      onsetcrosshair={setCrosshair}
+      onmapinit={mapInit}
+    ></c-ps2-base-map>
+  </div>
+</template>
