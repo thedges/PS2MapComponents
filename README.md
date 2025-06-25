@@ -4,7 +4,8 @@ THIS SOFTWARE IS COVERED BY [THIS DISCLAIMER](https://raw.githubusercontent.com/
 This repo provides new LWC based map components to be used in demos
 
 # Installation
-Install this repo to your target demo org.
+1. Install this repo to your target demo org using the below link.
+2. For PS2RecordLocator component, assign the "PS2RecordLocator" perm set to the user(s) that will use this component.
 
 <a href="https://githubsfdeploy.herokuapp.com?owner=thedges&repo=PS2MapComponents&ref=main">
   <img alt="Deploy to Salesforce"
