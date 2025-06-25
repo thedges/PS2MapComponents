@@ -4,7 +4,11 @@ THIS SOFTWARE IS COVERED BY [THIS DISCLAIMER](https://raw.githubusercontent.com/
 This repo provides new LWC based map components to be used in demos
 
 # Installation
-Install this repo to your target demo org.
+1. Install this repo to your target demo org using the below link.
+2. For PS2RecordLocator component...
+   * Assign the "PS2RecordLocator" perm set to the user(s) that will use this component.
+   * Edit a page and find the "PS2 Record Locator" component in the custom LWC component list and drop on your page.
+   * Configure the parameters for the component for your environment.
 
 <a href="https://githubsfdeploy.herokuapp.com?owner=thedges&repo=PS2MapComponents&ref=main">
   <img alt="Deploy to Salesforce"
@@ -13,8 +17,6 @@ Install this repo to your target demo org.
 
 # PS2RecordLocator
 Use this component to drop on record to show current location. You can move map to new location and component will do a reverse address lookup based on location of crosshair. Click on address at bottom of window to set the record lat/lng and address fields. The following is example of the map component on a record.
-
-To install, just find the "PS2 Record Locator" component in the custom LWC component list and drop on your page.
 
 ![alt text](./PS2RecordLocator-1.jpg "PS2RecordLocator Sample 1")
 ![alt text](./PS2RecordLocator-3.jpg "PS2RecordLocator Sample 2")
