@@ -14,7 +14,7 @@ Install this repo to your target demo org.
 # PS2RecordLocator
 Use this component to drop on record to show current location. You can move map to new location and component will do a reverse address lookup based on location of crosshair. Click on address at bottom of window to set the record lat/lng and address fields. The following is example of the map component on a record.
 
-![alt text](https://github.com/thedges/PSMapComponents/blob/master/PS2RecordLocator "Sample Image")
+![alt text](https://github.com/thedges/PSMapComponents/blob/master/PS2RecordLocator-1.jpg "Sample Image")
 
 Just find the "PS2 Record Locator" component in the custom LWC component list and drop on your page.
 
