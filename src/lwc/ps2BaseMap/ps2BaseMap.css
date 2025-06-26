@@ -37,10 +37,11 @@
 .searchDiv {
   position: absolute;
   top: 5px;
-  left: 80px;
+  left: 55px;
+  right: 45px;
   z-index: 999;
   padding: 3px;
-  width: 400px;
+  max-width: 400px;
 }
 
 .controlDiv {
